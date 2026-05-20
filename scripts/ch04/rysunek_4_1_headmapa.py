@@ -1,3 +1,5 @@
+# Dane z Tabela 4.1b
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
