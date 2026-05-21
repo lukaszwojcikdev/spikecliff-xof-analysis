@@ -1,0 +1,24 @@
+Wyniki analizy odleglosci Hamminga — XOF
+Data: 2026-04-22 15:55:38
+============================================================
+
+Algorytm/Label:          SHAKE128 XOF 32 GB (ziarno A vs B)
+Plik A:                  shake128_xof_32gb_ziarno_A.bin
+Plik B:                  shake128_xof_32gb_ziarno_B.bin
+Rozmiar:                 32768.00 MB
+Calkowita liczba bitow:  274877906944
+Odleglosc Hamminga:      137439051747
+Roznica procentowa:      50.000036 %
+Odchylenie od 50%:       0.000036 %
+------------------------------------------------------------
+
+Algorytm/Label:          SHAKE256 XOF 32 GB (ziarno A vs B)
+Plik A:                  shake256_xof_32gb_ziarno_A.bin
+Plik B:                  shake256_xof_32gb_ziarno_B.bin
+Rozmiar:                 32768.00 MB
+Calkowita liczba bitow:  274877906944
+Odleglosc Hamminga:      137438930429
+Roznica procentowa:      49.999992 %
+Odchylenie od 50%:       0.000008 %
+------------------------------------------------------------
+
