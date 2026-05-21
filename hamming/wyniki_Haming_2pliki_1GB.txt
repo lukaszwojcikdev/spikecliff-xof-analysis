@@ -1,0 +1,16 @@
+d:\XOF\Hamming_distance>python Hamming_distance_v1.py
+Porównuje pliki o rozmiarze: 1073741824 bajtów
+Obliczanie odleglosci Hamminga: 100%|█████████████████████████████| 1073741824/1073741824 [03:12<00:00, 5578406.91it/s]
+Odleglosc Hamminga: 0
+
+d:\XOF\Hamming_distance>python Hamming_distance_v2.py
+Analiza plików: 1024.00 MB
+Hamming Distance: 100%|████████████████████████████████████████████████████████████| 1.07G/1.07G [00:05<00:00, 188MB/s]
+
+--- WYNIKI ---
+Całkowita liczba bitów:  8589934592
+Odległość Hamminga:      0
+Różnica procentowa:      0.000000 %
+Interpretacja:           IDENTYCZNE
+
+d:\XOF\Hamming_distance>
