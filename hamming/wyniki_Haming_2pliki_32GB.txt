@@ -1,0 +1,11 @@
+C:\XOF\PractRand\PractRand\bin>python Hamming_distance_v2.py
+Analiza plików: 32768.00 MB
+Hamming Distance: 100%|████████████████████████████████████████████████████████████| 34.4G/34.4G [03:24<00:00, 168MB/s]
+
+--- WYNIKI ---
+Całkowita liczba bitów:  274877906944
+Odległość Hamminga:      0
+Różnica procentowa:      0.000000 %
+Interpretacja:           IDENTYCZNE
+
+C:\XOF\PractRand\PractRand\bin>
