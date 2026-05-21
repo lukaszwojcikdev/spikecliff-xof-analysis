@@ -1,0 +1,51 @@
+d:\TESTY\Hamming_disance\testy>python shake128_1gb_ziarno_A.py
+Generowanie shake128_xof_1gb_ziarno_A.bin (1 GB)...
+Chunk: 16 MB, iteracji: 64
+  Postep: 0.6/1 GB
+Gotowe! Plik: shake128_xof_1gb_ziarno_A.bin
+
+d:\TESTY\Hamming_disance\testy>python shake128_1gb_ziarno_B.py
+Generowanie shake128_xof_1gb_ziarno_B.bin (1 GB)...
+Chunk: 16 MB, iteracji: 64
+  Postep: 0.6/1 GB
+Gotowe! Plik: shake128_xof_1gb_ziarno_B.bin
+
+d:\TESTY\Hamming_disance\testy>python shake256_1gb_ziarno_A.py
+Generowanie shake256_xof_1gb_ziarno_A.bin (1 GB)...
+Chunk: 16 MB, iteracji: 64
+  Postep: 0.6/1 GB
+Gotowe! Plik: shake256_xof_1gb_ziarno_A.bin
+
+d:\TESTY\Hamming_disance\testy>python shake256_1gb_ziarno_B.py
+Generowanie shake256_xof_1gb_ziarno_B.bin (1 GB)...
+Chunk: 16 MB, iteracji: 64
+  Postep: 0.6/1 GB
+Gotowe! Plik: shake256_xof_1gb_ziarno_B.bin
+
+d:\TESTY\Hamming_disance\testy>python Hamming_SHAKE_1GB_ziarno_AB.py
+
+Analiza: SHAKE128 XOF 1 GB (ziarno A vs B)
+Pliki: shake128_xof_1gb_ziarno_A.bin vs shake128_xof_1gb_ziarno_B.bin
+Rozmiar: 1024.00 MB
+Hamming Distance: 100%|████████████████| 1.07G/1.07G [00:10<00:00, 98.1MB/s]
+
+--- WYNIKI ---
+Calkowita liczba bitow:  8589934592
+Odleglosc Hamminga:      4294999369
+Roznica procentowa:      50.000373 %
+Odchylenie od 50%:       0.000373 %
+Interpretacja:           ROZNE
+
+Analiza: SHAKE256 XOF 1 GB (ziarno A vs B)
+Pliki: shake256_xof_1gb_ziarno_A.bin vs shake256_xof_1gb_ziarno_B.bin
+Rozmiar: 1024.00 MB
+Hamming Distance: 100%|████████████████| 1.07G/1.07G [00:10<00:00, 98.7MB/s]
+
+--- WYNIKI ---
+Calkowita liczba bitow:  8589934592
+Odleglosc Hamminga:      4295010521
+Roznica procentowa:      50.000503 %
+Odchylenie od 50%:       0.000503 %
+Interpretacja:           ROZNE
+
+Wyniki zapisane do: wyniki_Hamming_SHAKE_1GB_ziarno_AB.txt
