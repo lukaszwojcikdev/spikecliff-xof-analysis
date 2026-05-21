@@ -1,0 +1,114 @@
+Microsoft Windows [Version 10.0.26200.8037]
+(c) Microsoft Corporation. Wszelkie prawa zastrzeżone.
+
+d:\XOF\testy\HAMMING>python shake128_10gb_ziarno_A.py
+Generowanie shake128_xof_10gb_ziarno_A.bin (10 GB)...
+Chunk: 16 MB, iteracji: 640
+  Postep: 0.6/10 GB
+  Postep: 1.2/10 GB
+  Postep: 1.9/10 GB
+  Postep: 2.5/10 GB
+  Postep: 3.1/10 GB
+  Postep: 3.8/10 GB
+  Postep: 4.4/10 GB
+  Postep: 5.0/10 GB
+  Postep: 5.6/10 GB
+  Postep: 6.2/10 GB
+  Postep: 6.9/10 GB
+  Postep: 7.5/10 GB
+  Postep: 8.1/10 GB
+  Postep: 8.8/10 GB
+  Postep: 9.4/10 GB
+  Postep: 10.0/10 GB
+Gotowe! Plik: shake128_xof_10gb_ziarno_A.bin
+
+d:\XOF\testy\HAMMING>python shake128_10gb_ziarno_B.py
+Generowanie shake128_xof_10gb_ziarno_B.bin (10 GB)...
+Chunk: 16 MB, iteracji: 640
+  Postep: 0.6/10 GB
+  Postep: 1.2/10 GB
+  Postep: 1.9/10 GB
+  Postep: 2.5/10 GB
+  Postep: 3.1/10 GB
+  Postep: 3.8/10 GB
+  Postep: 4.4/10 GB
+  Postep: 5.0/10 GB
+  Postep: 5.6/10 GB
+  Postep: 6.2/10 GB
+  Postep: 6.9/10 GB
+  Postep: 7.5/10 GB
+  Postep: 8.1/10 GB
+  Postep: 8.8/10 GB
+  Postep: 9.4/10 GB
+  Postep: 10.0/10 GB
+Gotowe! Plik: shake128_xof_10gb_ziarno_B.bin
+
+d:\XOF\testy\HAMMING>python shake256_10gb_ziarno_A.py
+Generowanie shake256_xof_10gb_ziarno_A.bin (10 GB)...
+Chunk: 16 MB, iteracji: 640
+  Postep: 0.6/10 GB
+  Postep: 1.2/10 GB
+  Postep: 1.9/10 GB
+  Postep: 2.5/10 GB
+  Postep: 3.1/10 GB
+  Postep: 3.8/10 GB
+  Postep: 4.4/10 GB
+  Postep: 5.0/10 GB
+  Postep: 5.6/10 GB
+  Postep: 6.2/10 GB
+  Postep: 6.9/10 GB
+  Postep: 7.5/10 GB
+  Postep: 8.1/10 GB
+  Postep: 8.8/10 GB
+  Postep: 9.4/10 GB
+  Postep: 10.0/10 GB
+Gotowe! Plik: shake256_xof_10gb_ziarno_A.bin
+
+d:\XOF\testy\HAMMING>python shake256_10gb_ziarno_B.py
+Generowanie shake256_xof_10gb_ziarno_B.bin (10 GB)...
+Chunk: 16 MB, iteracji: 640
+  Postep: 0.6/10 GB
+  Postep: 1.2/10 GB
+  Postep: 1.9/10 GB
+  Postep: 2.5/10 GB
+  Postep: 3.1/10 GB
+  Postep: 3.8/10 GB
+  Postep: 4.4/10 GB
+  Postep: 5.0/10 GB
+  Postep: 5.6/10 GB
+  Postep: 6.2/10 GB
+  Postep: 6.9/10 GB
+  Postep: 7.5/10 GB
+  Postep: 8.1/10 GB
+  Postep: 8.8/10 GB
+  Postep: 9.4/10 GB
+  Postep: 10.0/10 GB
+Gotowe! Plik: shake256_xof_10gb_ziarno_B.bin
+
+d:\XOF\testy\HAMMING>python Hamming_SHAKE_10GB_ziarno_AB.py
+
+Analiza: SHAKE128 XOF 10 GB (ziarno A vs B)
+Pliki: shake128_xof_10gb_ziarno_A.bin vs shake128_xof_10gb_ziarno_B.bin
+Rozmiar: 10240.00 MB
+Hamming Distance: 100%|███████████████████████████████| 10.7G/10.7G [01:01<00:00, 174MB/s]
+
+--- WYNIKI ---
+Calkowita liczba bitow:  85899345920
+Odleglosc Hamminga:      42949773523
+Roznica procentowa:      50.000117 %
+Odchylenie od 50%:       0.000117 %
+Interpretacja:           ROZNE
+
+Analiza: SHAKE256 XOF 10 GB (ziarno A vs B)
+Pliki: shake256_xof_10gb_ziarno_A.bin vs shake256_xof_10gb_ziarno_B.bin
+Rozmiar: 10240.00 MB
+Hamming Distance: 100%|███████████████████████████████| 10.7G/10.7G [01:01<00:00, 174MB/s]
+
+--- WYNIKI ---
+Calkowita liczba bitow:  85899345920
+Odleglosc Hamminga:      42949702771
+Roznica procentowa:      50.000035 %
+Odchylenie od 50%:       0.000035 %
+Interpretacja:           ROZNE
+
+Wyniki zapisane do: wyniki_Hamming_SHAKE_10GB_ziarno_AB.txt
