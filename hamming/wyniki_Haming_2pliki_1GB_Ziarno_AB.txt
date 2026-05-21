@@ -1,0 +1,11 @@
+d:\XOF\Hamming_distance>python Hamming_distance_v3_ziarno_AB.py
+Analiza plików: 1024.00 MB
+Hamming Distance: 100%|████████████████████████████████████████████████████████████| 1.07G/1.07G [00:05<00:00, 195MB/s]
+
+--- WYNIKI ---
+Całkowita liczba bitów:  8589934592
+Odległość Hamminga:      4294939364
+Różnica procentowa:      49.999675 %
+Interpretacja:           RÓŻNE
+
+d:\XOF\Hamming_distance>
