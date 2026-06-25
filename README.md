@@ -34,8 +34,7 @@ spikecliff-xof-analysis/
 │
 ├── dataset/src/                  — core modules (required by boundary_scan.py)
 │   ├── xof_generators.py         — unified XOF interface (BLAKE3, SHAKE128, SHAKE256)
-│   ├── timing_profiler.py        — boundary-aware profiling engine
-│   └── __init__.py
+│   └── timing_profiler.py        — boundary-aware profiling engine
 │
 ├── dataset/scripts/                             — measurement and figure scripts
 │   ├── boundary_scan.py                         — main CLI scanner (uses src/ modules)
