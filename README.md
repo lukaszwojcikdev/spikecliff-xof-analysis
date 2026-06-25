@@ -1,6 +1,5 @@
 # SpikeCliff Effect — Measurement Data and Analysis Scripts
 
-(https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 
 ## Overview
@@ -33,20 +32,20 @@ spikecliff-xof-analysis/
 ├── README.md                     — this file
 ├── requirements.txt              — Python dependencies
 │
-├── dataset/src/                          — core modules (required by boundary_scan.py)
+├── dataset/src/                  — core modules (required by boundary_scan.py)
 │   ├── xof_generators.py         — unified XOF interface (BLAKE3, SHAKE128, SHAKE256)
 │   ├── timing_profiler.py        — boundary-aware profiling engine
 │   └── __init__.py
 │
-├── dataset/scripts/                      — measurement and figure scripts
-│   ├── boundary_scan.py          — main CLI scanner (uses src/ modules)
-│   ├── spikecliff_scanner_shake128.py     — standalone SHAKE128 scan → Figure 1
-│   ├── spikecliff_scanner_shake256_v2.py  — standalone SHAKE256 scan → Figure 2
+├── dataset/scripts/                             — measurement and figure scripts
+│   ├── boundary_scan.py                         — main CLI scanner (uses src/ modules)
+│   ├── spikecliff_scanner_shake128.py           — standalone SHAKE128 scan → Figure 1
+│   ├── spikecliff_scanner_shake256_v2.py        — standalone SHAKE256 scan → Figure 2
 │   ├── compare_timings_i9_No_TurboB_shake128.py — Turbo ON vs OFF → Figure 3
-│   ├── figure_4_blake3.py        — BLAKE3 negative control → Figure 4
-│   └── wykres_6_6.py             — Figure 4 variant (Polish labels)
+│   ├── figure_4_blake3.py                       — BLAKE3 negative control → Figure 4
+│   └── wykres_6_6.py                            — Figure 4 variant (Polish labels)
 │
-├── dataset/figures/                      — final figures as published
+├── dataset/figures/                   — final figures as published
 │   ├── spikecliff_shake128_plot.png   — Figure 1: SHAKE128 stepwise timing profile
 │   └── spikecliff_shake256_plot.png   — Figure 2: SHAKE256 stepwise timing profile
 │
@@ -58,7 +57,7 @@ spikecliff-xof-analysis/
 │   ├── STEC_LIVE_i9_shake128_085741_No_TurboB_no_stress.7z
 │   └── STEC_LIVE_i9_shake128_092643_No_TurboB_stress.7z
 │
-└── dataset/discovery/                    — chronological record of the discovery process
+└── dataset/discovery/                 — chronological record of the discovery process
     ├── 1_discovery_spikecliff.py      — initial anomaly detection
     ├── 2_analysis_expensive_byte.py   — cost analysis of the boundary byte
     ├── 3_solution_smart_wrapper.py    — mitigation prototype (SmartSHAKE128)
